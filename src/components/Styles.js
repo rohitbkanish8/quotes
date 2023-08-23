@@ -63,8 +63,8 @@ export const Btn = styled.button`
   text-transform: uppercase;
   border: 0;
   outline: 0;
-  box-shadow: 0 5px 10px 0 rgba(205, 209, 215, 0.8);
-  background: linear-gradient(to right, #cb3066, #16bffd);
+  /* box-shadow: 0 5px 10px 0 rgba(205, 209, 215, 0.8); */
+  background: linear-gradient(to right, #5F85DB, #90B8F8);
   color: #fff;
   background-size: 300% 300%;
   animation: ${gradient} 2.5s ease infinite;
@@ -75,7 +75,7 @@ export const Btn = styled.button`
 `;
 
 export const QuoteCard = styled.div`
-  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: linear-gradient(135deg, #fffa 0%, #fff 100%);
   width: 40%;
   border-radius: 5px;
   padding: 2%;
